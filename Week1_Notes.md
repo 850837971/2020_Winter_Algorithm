@@ -1,8 +1,7 @@
 # Week1 学习总结
 ## 1. Stack
 ### 
-1. Stack 先入后出(LIFO)，添加和删除的时间复杂度都为O(1)
-2. 常见function
+1. Stack 先入后出(LIFO)，添加和时间复杂度都为O(1), 查询复杂度为O(n)
 pop, push, empty, top
 ```C++
 std::stack<unsigned> s;
@@ -22,12 +21,24 @@ if (!s.empty()){
 
 ## 2.Queue
 ### 
-1. Queue 先入先出(FIFO), 添加和时间复杂度都为O(1)
+1. Queue 先入先出(FIFO), 添加和时间复杂度都为O(1), 查询复杂度为O(n)
 2. 常见的function
 * empty
 * size
 * front 
 * back 
+
+## 3.Deque
+### 
+1. double-ended queue, 添加和时间复杂度都为O(1), 查询复杂度为O(n)
+
+## 4.Priority Queue
+###
+1. 插入和删除复杂度为O(1), 取出操作为O(logN), 按照元素的优先级
+示例代码：
+```c++
+priority_queue<int, vector<int>, greater<int>> q1;
+
 
 
 
