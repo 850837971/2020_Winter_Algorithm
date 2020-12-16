@@ -38,6 +38,9 @@ if (!s.empty()){
 示例代码：
 ```c++
 priority_queue<int, vector<int>, greater<int>> q1;
+```
+## 70.爬楼梯
+### 思路：化繁为简，从1开始，接着是2（找最近重复的子问题）因为只能for while， if, recursion
 
 
 
